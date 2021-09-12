@@ -47,7 +47,4 @@ public class PMS {
 		this.price = price;
 	}
 
-	
-	
-	
 }
