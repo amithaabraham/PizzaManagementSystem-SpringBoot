@@ -46,7 +46,7 @@ public class PMS_Controller {
 	 }
 	
 	@GetMapping("/getPizza")
-	 public List<PMS> getProductByName(@RequestParam(value="ProductName")String productname)
+	 public List<PMS> getProductByName(@RequestParam(value="productname")String productname)
 	 {
 		 return repository.findAllByProductName(productname);
 		
